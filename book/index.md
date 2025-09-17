@@ -1,0 +1,4 @@
+# The SunPy Book
+
+```{tableofcontents}
+```
