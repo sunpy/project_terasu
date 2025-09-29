@@ -21,6 +21,7 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.mathjax",
     "sphinx_changelog",
+    "sphinx_tags",
     "myst_parser",
     "sphinx_design",
 ]
@@ -47,6 +48,13 @@ default_role = "py:obj"
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {"python": ("https://docs.python.org/", None)}
+
+# Sphinx Tags
+tags_create_tags = True
+tags_extension = ['md']
+tags_overview_title = 'Project Terasu'
+tags_create_badges = True
+
 
 # -- Options for HTML output -------------------------------------------------
 
